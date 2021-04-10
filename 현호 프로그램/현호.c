@@ -8,7 +8,7 @@ int main_gnt()
     while (1)
     {
         
-    scanf_s("%s",&a);
+    scanf_s("%s",&a );
     printf("%s", *a);
     if (a == 0)
         break;
