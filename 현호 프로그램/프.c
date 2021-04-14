@@ -219,3 +219,168 @@ int abc(int num) {
 	else
 		return num;
 }*/
+
+	
+
+#include <math.h> 
+	/*int main(void)
+	{
+		int x, y = 0, z, save, imsi, i = 0, j = 0;
+		printf_s("수를 입력하세요 : ");
+		scanf_s("%d", &x);
+		imsi = x;
+		while (1)
+		{
+			if (0 == x / ((int)pow(10, i) * 10))
+			{
+				break;
+			}
+			i++;
+		}
+		while (1)
+		{
+			save = imsi / (int)pow(10, i);
+			imsi = imsi - save * (int)pow(10, i);
+			y += save * (int)pow(10, j);
+			j++;
+			i--;
+			if (0 > i)
+			{
+				break;
+			}
+		}
+		z = 2 * y;
+		printf_s("정수 x : %d\n", x);
+		printf_s("뒤집은 수 y : %d\n", y);
+		printf_s("그 수의 2배수 : %d\n", z);
+		return 0;
+	}*/
+
+/*int maxNum(int n1, int n2, int n3) {
+	if (n1 > n2)
+		return n1 > n3 ? n1 : n3;
+	else
+		return n2 > n3 ? n2 : n3;
+}
+int minNum(int n1, int n2, int n3)
+{
+	if (n1 < n2)
+		return n1 < n3 ? n1 : n3;
+	else
+		return n2 < n3 ? n2 : n3;
+}
+int main()
+{
+	int n1, n2, n3;
+	scanf("%d %d %d", &n1, &n2, &n3);
+	printf("가장 큰 수 : %d\n", maxNum(n1, n2, n3));
+	printf("가장 작은 수 : %d\n", minNum(n1, n2, n3));
+	return 0;
+}*/
+
+/*int n;
+
+void fibonacci();
+
+void input() {
+	scanf("%d", &n);
+}
+int main() {
+	input();
+	fibonacci();
+	return 0;
+}
+void fibonacci()
+{
+	// 1 1 2 3 5 8...
+	int f1 = 1, f2 = 1, f3, i;
+	if (n == 1)//첫 번째는 1리턴
+		printf("%d ", f1);
+	else
+		printf("%d %d ", f1, f2);
+	for (i = 0; i < n -2; i++)
+	{
+		f3 = f1 + f2;
+		printf("%d ", f3);
+		f1 = f2;
+		f2 = f3;
+	}
+}*/
+/*int t;
+
+void input()
+{
+	scanf_s("%d", &t);
+}
+void fibo()
+{
+	int f1 = 1, f2 = 1, f3, i;
+	if (t == 1)
+		printf("%d ", f1);
+	else
+		printf("%d %d ", f1, f2);
+	for (i = 0; i < t - 2; i++)
+	{
+		f3 = f1 + f2;
+		printf("%d ", f3);
+		f1 = f2;
+		f2 = f3;
+
+	}
+}
+int main()
+{
+	input();
+	fibo();
+
+	return 0;
+}*/
+
+/*int recur(int n)
+{
+	if (n < 0)
+		return 1;
+	printf("함수안의 함수 호출 :%d\n", n);
+	recur(n - 1);
+
+}
+int main()
+{
+	recur(5);
+	return 0;
+
+}*/
+
+/*int fact(int n)
+{
+	if (n == 0 || n == 1)
+	{
+		return 1;
+	}
+	else
+		return n * fact(n - 1);
+
+}
+int main() {
+	printf("%d\n", fact(5));
+	return 0;
+}*/
+/*int main() {
+	int a, b, c, d, e;
+	int arr[5];
+	int sum1 = 0, sum2 = 0;
+	a = 1, b = 2, c = 3, d = 4, e = 5;
+	sum1 = a + b + c + d + e;
+	arr[0] = 1, arr[1] = 2, arr[2] = 3, arr[3] = 4, arr[4] = 5;
+	for (int i = 0; i < 5; i++)
+	{
+		sum2 += arr[i];
+
+
+	}
+	printf("sum1 = %d, sum2 = %d",sum1,sum2);
+
+	return 0;
+}*/
+
+
