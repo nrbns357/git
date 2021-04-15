@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main_ls() {
 	//(1)
 	/*int a, b , c;
 	scanf_s("%d %d", &a, &b);

@@ -1,4 +1,6 @@
+#include <iostream>
 #include <stdio.h>
+//using namespace std;
 //int add(int a, int b);
 //int sub(int a, int b);
 //int mul(int a, int b);
@@ -383,4 +385,78 @@ int main() {
 	return 0;
 }*/
 
+/*int main()
+{
+	cout << "Hello world" << endl;
+	return 0;
+}*/
 
+/*int main() {
+
+	char matrix[10][10];
+	for (int i = 0; i < 10; i++)
+	{
+		for (int j = 0; j < 10; j++)
+		{
+			if (i == j)
+				matrix[i][j] = 'x';
+		}
+	}
+	for (int i = 0; i < 10; i++)
+	{
+		for (int j = 0; j < 10; j++)
+		{
+			printf("%2c",matrix[i][j]);
+		}
+	}
+	printf("\n");
+
+
+	return 0;
+}*/
+
+/*int main() {
+
+	int a, b;
+	for (a = 1; a <= 7; a++)
+	{
+		for (b = 1; b <= 7; b++)
+		{
+			if (a == b || a + b == 8)
+				printf("*");
+			else
+				putchar(32);
+		}
+		printf("\n");
+	}
+
+	return 0;
+}*/
+
+int main()
+{
+	/*int a, b;
+	for (b = 1; b <= 9; b++)
+
+	{
+		for (a = 2; a <= 4; a++)
+		{
+			printf("%d * %d = %2d  ", a, b, a * b);
+		}
+		printf("\n");
+	}
+	return 0;*/
+
+	int a, b,c;
+	scanf_s("%d", &a);
+
+	for (b = 1; b <= a; b++)
+	{
+		for (c = 1; c <= a; c++)
+		{
+			printf("(%d, %d)", b, c);
+		}
+		printf("\n");
+	}
+
+}
