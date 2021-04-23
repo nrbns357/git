@@ -433,9 +433,9 @@ int main() {
 	return 0;
 }*/
 
-int main()
+/*int main()
 {
-	/*int a, b;
+	int a, b;
 	for (b = 1; b <= 9; b++)
 
 	{
@@ -445,7 +445,7 @@ int main()
 		}
 		printf("\n");
 	}
-	return 0;*/
+	return 0;
 
 	int a, b,c;
 	scanf_s("%d", &a);
@@ -459,4 +459,187 @@ int main()
 		printf("\n");
 	}
 
+
+	}*/
+
+	//4월 19일
+
+/*int func(int n) {
+	static int a = 0;
+	a++;
+	printf("n=%d a=%d\n", n,a);
 }
+
+int main()
+{
+	int n = 5;
+	func(n);
+	func(n);
+	return 0;
+}*/
+
+/*int main() {
+	char str[] = "Hello world\n";
+	printf("str=%s\n", str);
+	printf("str의 크기:%d\n", sizeof(str));
+	printf("%d\n", sizeof("Hello"));
+	char str1[10];
+	str1[0] = 'a';
+	str1[1] = 'b';
+	str1[2] = 'c';
+	str1[3] = '\0';
+	str1[4] = 'e';
+	printf("str1=%s\n", str1);
+	printf("str1=%d\n", sizeof(str1));
+	printf("널문자의 값은\n", str1[3]);
+	return 0;
+}*/
+
+/*int main()
+{
+	char str[20];
+	int i = 0;
+	scanf("%s", str);
+	//st앞에 &를 안쓰는이유
+	//배열의 이름이 주소이기때문
+	printf("문자단위 출력\n");
+	while (str[i] != '\0')
+	{
+		printf("%c", str[i++]);
+	}
+	printf("%c\n", str);
+	return 0;
+}*/
+
+/*int main()
+{
+	char str[20] = "I love you";
+	str[5] = '\0';
+	printf("%s\n", str);
+
+
+
+	return 0;
+
+}*/
+
+/*int main() {
+	char str[50];
+	int i = 0;
+	scanf("%s", str);
+
+	while (str[i]!='\0')
+	{
+		i++;
+	}
+	for (; i >= 0; i--) {
+		printf("%c", str[i]);
+	}
+
+	return 0;
+}*/
+
+/*int main()
+{
+	float a[6];
+	int b;
+	for (b = 1; b < 7; b++)
+	{
+		printf("%d번째 : ", b);
+		scanf_s("%f", &a[b-1]);
+
+	}
+	printf("%.1f", (a[0] + a[1] + a[2] + a[3] + a[4] + a[5]) / 6);
+
+	return 0;
+}*/
+
+/*int main()
+{
+	int a[10], b,odd=0,even=0;
+	for (b = 1; b <= 10; b++)
+	{
+		scanf_s("%d", &a[b]);
+		if (a[b] % 2 == 0)
+		{
+			even = +a[b];
+		}
+		else
+		{
+			odd = +a[b];
+		}
+	}
+	printf("odd : %d \neven : %d",odd,even);
+	return 0;
+}*/
+
+/*int main()
+{
+	int i = -1, n[100], sum1 = 0, sum2=0;
+	printf("입력정수 : ");
+	do {
+		i++;
+		scanf_s("%d", &n[i]);
+		if (n[i] > sum1)
+			if (n[i] < 999)
+				sum1 = n[i];
+		if (n[i] < sum2)
+			sum2 = n[i];
+	} while (i < 100 && n[i] != 999);
+	printf("max : %d\nmin : %d", sum1, sum2);
+	return 0;
+}*/
+
+/*int main()
+{
+	int i, j, a, all;
+	scanf_s("%d %d", &a, &all);
+	for (i = 1; i < all; i++) {
+		for (j = 1; j < all; j++) {
+			if (4 * i + 2 * j == a)
+				printf("토끼 : %d , 닭 : %d", i,j);
+		}
+	}
+	return 0;
+}*/
+
+/*int main() 
+{
+	char a, b;
+	scanf_s("%c", &b);
+	while
+	{
+		if (b == 10)
+		{
+			break;
+
+		}
+		scanf_s("%c", &a);
+		if (a == 10)
+		{
+			printf("Hello");
+		}
+		if (a != 10)
+			break;
+	}
+	
+	
+	return 0;
+
+}*/
+/*int main()
+{
+int kor, eng, math, hap=0;
+int sum;
+scanf_s("%d %d %d", &kor, &eng, &math);
+hap = kor + eng + math;
+sum = hap / 3;
+if (sum >= 80)
+{
+	printf("합격! 점수 : %d", sum);
+}
+else
+printf("불합격! 점수 : %d", 80 - sum);
+return 0;
+}*/
+
