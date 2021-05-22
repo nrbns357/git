@@ -18,7 +18,7 @@
     <ClCompile Include="현호.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="프.cpp">
+    <ClCompile Include="프.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="테트리스.c">
